@@ -5,7 +5,7 @@ matchMesh by Tony TUNG (tonytung.org)- 2014 (c)
 
 SUMMARY:
 Surface Alignment by Geodesic Mapping [Tung et al., PAMI14] & [Tung et al., CVPR10]
-Use provided Makefile for compilation and don't forget to create an ./output/ folder folder before running the executable.
+Use provided Makefile for compilation and don't forget to create an ./output/ folder before running the executable.
 Example: run with ./matchMesh mesh_0080_0.off mesh_0081_0.off or ./matchMesh Horse/16.off Cat/009.off 
 
 DESCRIPTION:
@@ -17,7 +17,9 @@ Each vertex of Mesh2 is matched to a vertex of Mesh1 using geodesic mapping.
 
 DETAILS:
 The code calls the library libamrg.a to compute surface geodesics and extremal points.
-The code has been tested on 32-bit Debian Linux.
+The code has been tested on 32-bit Debian Linux, 64-bit Windows 8.1 and Mac OS X.
+(For 64-bit, just copy x64/libamrg.a and x64/byteOrder.h to the main folder before compilation.)
+
 The method implemented here is slightly different from the papers (for the sake of code compactness), but follows the general scheme.
 (Differences are in the initial node matching and final mapping processes, which are here simplified and somehow less robust!)
 
