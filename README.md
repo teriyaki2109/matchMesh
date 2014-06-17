@@ -2,6 +2,7 @@
 *** USE IT FOR RESEARCH PURPOSE ***
 
 matchMesh by Tony TUNG (tonytung.org)- 2014 (c)
+v0.0 - released June 11, 2014
 
 SUMMARY:
 Surface Alignment by Geodesic Mapping [Tung et al., PAMI14] & [Tung et al., CVPR10]
