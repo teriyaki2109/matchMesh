@@ -6,7 +6,7 @@ matchMesh by Tony TUNG (tonytung.org)- 2014 (c)
 SUMMARY:
 Surface Alignment by Geodesic Mapping [Tung et al., PAMI14] & [Tung et al., CVPR10]
 Use provided Makefile for compilation and don't forget to create an ./output/ folder before running the executable.
-Example: run with ./matchMesh mesh_0080_0.off mesh_0081_0.off or ./matchMesh Horse/16.off Cat/009.off 
+Example: ./matchMesh Mesh1.off Mesh2.off 
 
 DESCRIPTION:
 This software can be used to align two surfaces represented by 3D meshes. For example, Mesh1 and Mesh2.
@@ -24,7 +24,7 @@ The method implemented here is slightly different from the papers (for the sake 
 (Differences are in the initial node matching and final mapping processes, which are here simplified and somehow less robust!)
 
 This code works best between consecutive frames of 3D video sequences (i.e., not optimized for wideframe alignment).
-Better performance can still be achieved by fine tuning several parameters that were determined empirically (e.g., thresholds ana variables in geomap.h).
+Better performance can still be achieved by fine tuning several parameters that were determined empirically (e.g., thresholds and variables in geomap.h).
 
 For testing, we recommend the public mesh sequences of "breakdance" (e.g., lock, free, etc.) made by Univ. of Surrey,
 or the ones processed by INRIA Grenoble which are topologically consistent over time (see [Cagniart et al., ECCV10]).
