@@ -18,7 +18,7 @@ Each vertex of Mesh2 is matched to a vertex of Mesh1 using geodesic mapping.
 
 DETAILS:
 The code calls the library libamrg.a to compute surface geodesics and extremal points.
-The code has been tested on 32-bit Debian Linux, 64-bit Windows 8.1 and Mac OS X.
+The code has been tested on 32-bit Debian Linux, 64-bit Windows 8.1.
 (For 64-bit, just copy x64/libamrg.a and x64/byteOrder.h to the main folder before compilation.)
 
 The method implemented here is slightly different from the papers (for the sake of code compactness), but follows the general scheme.
